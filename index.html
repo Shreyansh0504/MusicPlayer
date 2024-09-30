@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="player-container">
+        <div class="player">
+            <div id="album_art">
+                <!-- <img id="album-art" src="maxresdefault.jpg" alt="Album Art"> -->
+                 
+            </div>
+            <h2 id="song-title">Jo Tu Na Mila</h2>
+            <h3 id="artist-name">Asim Azhar</h3>
+
+            <audio id="audio" src="Jo Tu Na Mila_320(PagalWorld.com.so).mp3"></audio>
+
+            <div class="controls">
+                <button id="prev" class="control-btn prev-btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="playPause" class="control-btn play-pause-btn">
+                    <i class="fas fa-play"></i>
+                    <i class="fas fa-pause"></i>
+                </button>
+                <button id="next" class="control-btn next-btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+
+            <input type="range" id="progress-bar" value="0" max="100" class="progress-bar">
+            <div class="time">
+                <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #000000 0%, #703d2f 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Player container and layout */
+.player-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack player sections vertically */
+    align-items: center;
+    gap: 20px;
+    /* Space between player sections */
+}
+
+.player {
+    background: #000000;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(202, 38, 38, 0.2);
+    width: 300px;
+}
+
+/* Album art styling */
+#album_art {
+    /* src: "maxresdefault.jpg"; */
+    border-radius: 15px;
+
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#artImg{
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Song and artist title styling */
+h2,
+h3 {
+    margin: 10px 0;
+    color: white;
+}
+
+/* Controls container styling */
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+/* Control button styling */
+.control-btn {
+    background-color: #ffffff;
+    /* Set background color to white */
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 50%;
+    /* Make the buttons perfectly round */
+}
+
+/* Icon inside the control buttons */
+.control-btn i {
+    font-size: 24px;
+    /* Adjust icon size */
+    color: #000;
+    /* Set icon color to black for better visibility */
+}
+
+/* Control button hover and active states */
+.control-btn:hover {
+    background-color: #f1c40f;
+    /* Change background on hover */
+    transform: scale(1.1);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    /* Adds a shadow for hover */
+}
+
+.control-btn:active {
+    transform: scale(1.05);
+    /* Subtle shrink when clicked */
+}
+
+/* Progress bar and time styling */
+.progress-bar {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.time {
+    color: white;
+}
