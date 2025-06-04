@@ -2,7 +2,7 @@
 
 Excited to share a project I’ve been working on—a web-based music player built using HTML, CSS, and JavaScript.
 
-The key feature? I utilized local storage to fetch and manage songs, ensuring a smooth and personalized experience for users. With local storage, your song preferences and playlists are saved right in your browser for easy access anytime!
+The key feature? I utilized local storage to fetch and manage songs, ensuring a smooth and personalized ekjdshfkj fdhoxperience for users. With local storage, your song preferences and playlists are saved right in your browser for easy access anytime!
 
 Key Features:
 
